@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class PedidoService {
 
-  URL_PEDIDOS = 'http://localhost:3000/pedidos'; // A porta 3000 é para o json-server e a porta 8080 é para o spring boot.
+  URL_PEDIDOS = 'http://localhost:3000/pedidos'; // A porta 3000 é para o json-server e a porta 8080 é para o spring boot!
 
   constructor(private httpCLient: HttpClient) {
 
