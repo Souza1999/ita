@@ -9,6 +9,11 @@
       "nome": "Carlos",
       "descricao": "3 porções de rubacão grande",
       "id": 3
+    },
+    {
+      "nome": "Yuri",
+      "descricao": "1 kg de costelinha suína ao molho barbecue bem assada + 2 porções de rubacão grande",
+      "id": 4
     }
   ],
   "pagamentos": []
