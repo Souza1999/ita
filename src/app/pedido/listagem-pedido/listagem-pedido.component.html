@@ -1,0 +1,19 @@
+<input [(ngModel)]="titulo">
+<input [(ngModel)]="titulo">
+
+<div class="container">
+  <mat-grid-list cols="4" rowHeight="100px">
+    <mat-card *ngFor="let pedido of pedidos" class="mat-card-simplezinho">
+        <mat-card-header>
+          <mat-card-title> {{pedido.id}} - {{pedido.nome}} </mat-card-title>
+        </mat-card-header>
+        <mat-card-content> {{pedido.descricao}} </mat-card-content>
+
+        <mat-card-actions>
+          <button mat-icon-button (click)="editar(pedido)"><mat-icon>create</mat-icon></button>
+          <button mat-icon-button (click)="remover(pedido)"><mat-icon>delete</mat-icon></button>
+        </mat-card-actions>
+
+    </mat-card>
+  </mat-grid-list>
+</div>

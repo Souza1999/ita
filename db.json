@@ -1,0 +1,15 @@
+{
+  "pedidos": [
+    {
+      "nome": "Alex Pedrosa",
+      "descricao": "1kg de salpicão de natal",
+      "id": 1
+    },
+    {
+      "nome": "Carlos",
+      "descricao": "3 porções de rubacão grande",
+      "id": 3
+    }
+  ],
+  "pagamentos": []
+}

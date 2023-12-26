@@ -1,0 +1,18 @@
+<mat-form-field appearance="fill">
+    <mat-label>ID</mat-label>
+    <input matInput [(ngModel)] = "pedido.id" placeholder="ID do pedido">
+  </mat-form-field>
+  
+  <mat-form-field>
+    <mat-label>Nome</mat-label>
+    <input matInput [(ngModel)] = "pedido.nome" placeholder="Nome do cliente">
+  </mat-form-field>
+  
+  <mat-form-field>
+    <mat-label>Descrição</mat-label>
+    <input matInput [(ngModel)] = "pedido.descricao" placeholder="Descrição do pedido">
+  </mat-form-field>
+  
+  <button mat-icon-button color="primary" (click)="inserirPedido()">
+    <mat-icon>send</mat-icon>
+  </button> 
